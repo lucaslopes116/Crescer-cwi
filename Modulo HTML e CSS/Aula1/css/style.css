@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+	font-size: 50px;
+}
+
+h1{text-align: center;}
+
+#aviao{
+	transform: rotate(-20deg);
+}
+
+#super{
+	transform: rotate(20deg);
+}
+#shuriken:hover{
+	-webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+		
+}

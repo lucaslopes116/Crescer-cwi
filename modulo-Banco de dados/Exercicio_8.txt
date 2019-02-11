@@ -1,0 +1,91 @@
+Exercicio 1
+
+SELECT
+     e.nomeempregado      AS nome_empregado,
+     g.nomeempregado      AS nome_gerente,
+     d.nomedepartamento   AS nome_departamento
+ FROM
+     empregado e
+     INNER JOIN empregado g ON e.idgerente = g.idempregado
+     INNER JOIN departamento d ON e.iddepartamento = d.iddepartamento
+ ORDER BY
+     e.idempregado
+
+Exercicio 2
+
+SELECT
+     *
+ FROM
+     (
+         SELECT
+             d.iddepartamento     AS id,
+             d.nomedepartamento   AS nome_departamento
+         FROM
+             empregado e
+             INNER JOIN departamento d ON e.iddepartamento = d.iddepartamento
+         ORDER BY
+             ( e.salario ) DESC
+     )
+ WHERE
+     ROWNUM = 1
+
+
+Exercicio 3
+
+
+UPDATE empregadoex
+SET
+    salario = salario + ( salario * 1.753 )
+where idempregado in (
+    SELECT
+        e.idempregado
+    FROM
+        empregadoex e
+        INNER JOIN departamento d ON e.iddepartamento = d.iddepartamento
+    WHERE
+        d.localizacao = 'SAO PAULO'
+)
+
+Exercicio 4
+
+SELECT
+     *
+ FROM
+     (
+         SELECT
+             nome,
+             COUNT(idcidade) AS quantidade,
+             uf
+         FROM
+             cidadeex
+         GROUP BY
+             nome,
+             uf
+         HAVING
+             COUNT(idcidade) > 1
+     )
+
+Exercicio 5
+
+CREATE VIEW w_cidade_duplicada AS
+    SELECT
+        nome,
+        MAX(idcidade) AS quantidade,
+        uf
+    FROM
+        cidadeex
+    GROUP BY
+        nome,
+        uf
+    HAVING
+        COUNT(idcidade) > 1
+
+
+update cidadeex
+
+set nome = nome || '*'
+ 
+where idcidade in (select quantidade from w_cidade_duplicada)
+
+
+

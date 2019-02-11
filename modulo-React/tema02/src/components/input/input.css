@@ -1,0 +1,82 @@
+.nomeAdicionarTexto {
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: #F4F4F4;
+    outline: none;
+}
+.nomeAdicionarTexto-url{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: #F4F4F4;
+    outline: none;
+  }
+
+.nomeAdicionarTexto:focus{
+  border-bottom: 1px solid #017ACC;
+}
+
+.nomeAdicionarTexto-url:focus{
+  border-bottom: 1px solid #017ACC;
+}
+
+.mensagem{
+
+  color: red;
+}.nomeAdicionarTexto {
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #F4F4F4;
+  outline: none;
+}
+.nomeAdicionarTexto-url{
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #F4F4F4;
+  outline: none;
+}
+
+.nomeAdicionarTexto:focus{
+  border-bottom: 1px solid #017ACC;
+}
+
+.nomeAdicionarTexto-url:focus{
+  border-bottom: 1px solid #017ACC;
+}
+
+.mensagem{
+
+  color: red;
+}.mensagem{
+
+  color: red;
+}.nomeAdicionarTexto {
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #F4F4F4;
+  outline: none;
+}
+.nomeAdicionarTexto-url{
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #F4F4F4;
+  outline: none;
+}
+
+.nomeAdicionarTexto:focus{
+  border-bottom: 1px solid #017ACC;
+}
+
+.nomeAdicionarTexto-url:focus{
+  border-bottom: 1px solid #017ACC;
+}
+
+.mensagem{
+
+  color: red;
+}

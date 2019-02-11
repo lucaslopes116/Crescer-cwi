@@ -1,0 +1,73 @@
+create or replace PACKAGE BODY pck_reajuste AS
+
+  /* Calcula o novo valor para os produtos baseado na porcentagem
+     Calcula a soma dos valores antigos como retorno */
+
+    FUNCTION ajusta_valor_produto(pPorcentagem in NUMBER) RETURN NUMBER 
+    AS rSoma pedidoitem.precounitario%type := 0;
+    
+     cursor busca_produto is
+        select idproduto, precovenda from produto where situacao like 'A';
+        
+      BEGIN
+      for reg in busca_produto loop
+        rSoma := rSoma + reg.precovenda;
+        update produto set precovenda = precovenda + precovenda*(pPorcentagem/100)
+        where idproduto = reg.idproduto;
+      end loop;
+      return rSoma;
+    END ajusta_valor_produto;
+    
+    /* Calcula a diferença entre os valores antigo e novo
+     Calcula a soma dos valores novos
+     Printa os resultados em forma de relatório */
+
+
+    PROCEDURE printa_valores(pValorAnterior IN NUMBER) AS
+        somaAtual produto.precovenda%type := 0;
+        diferenca produto.precovenda%type := 0;
+      BEGIN
+        select
+        sum(precovenda) 
+        into somaAtual 
+        from produto
+        where situacao like 'A';
+        diferenca := somaAtual - pValorAnterior;
+
+           DBMS_OUTPUT.PUT_LINE('Somatório antigo: ' || pValorAnterior || ', 
+           -- novo somatório: ' || somaAtual || ', diferença de: ' || diferenca);
+    END printa_valores;
+
+    /* Realiza o levantamento do ranking após chamar os outros procedimentos */
+
+    PROCEDURE processa_relatorios(pPorcentagem in NUMBER) AS
+    valorantigo produto.precovenda%type := 0;
+    cursor rank is
+    SELECT
+     *
+ FROM
+     (
+         SELECT
+             nome,
+             precovenda,
+             RANK() OVER(
+                 ORDER BY
+                     precovenda DESC
+             ) ranking
+         FROM
+             produto
+     )
+ WHERE
+     ranking <= 3;
+      BEGIN
+        valorantigo := ajusta_valor_produto(pPorcentagem);
+        printa_valores(valorantigo);
+        for reg in rank loop
+            dbms_output.put_line('Produto: ' || reg.nome || ' Preco: ' || reg.precovenda);
+        end loop;
+    END processa_relatorios;
+END pck_reajuste;
+
+begin 
+  pck_reajuste.processa_relatorios(10);
+end;

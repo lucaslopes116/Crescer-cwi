@@ -1,0 +1,234 @@
+.texto-opcoes:hover {
+
+    background-color: #E5E5E5;
+
+}
+
+.barra-lateral {
+
+    height: 1240px;
+    width: 355px;
+    position: absolute;
+    background-color: #FFFFFF;
+}
+
+.perfil-foto {
+    border-radius: 50%;
+    /*width: 220.91px;*/
+    /*height: 163.94px;*/
+    margin-top: 31.45px;
+}
+
+.perfil-nome {
+
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 17.95px;
+    font-weight: bold;
+}
+
+.perfil {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrega-mais {
+
+    width: 243px;
+    height: 56px;
+    border-radius: 3px;
+    background-color: #32363F;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 21px;
+    font-family: Roboto, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.carrega-mais:hover{
+
+    background-color: #C4C4C4;
+}
+
+hr {
+    width: 270px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.grupos{
+
+    display: flex;
+
+}
+
+.texto-grupo {
+
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+    margin-right: 144px;
+    margin-left: 51px;
+    margin-top: 30px;
+}
+
+.tres-pontos {
+
+    width: 20px;
+    height: 5px;
+    margin-right: 34px;
+    margin-top: 10px;
+    margin-top: 40px;
+}
+
+
+.grupo-conf {
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 57px;
+    position: relative;
+}
+
+.retangulo {
+    width: 35px;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid #EFC536;
+}
+
+.texto-opcoes {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: left;
+    margin-left: 21px;
+    margin-top: 11px;
+
+}
+
+.vetor-quadrado {
+
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    margin: 6px 7px 6px 7px;
+
+}
+
+.evento-aniversario {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+
+}
+
+.img-post-pequeno-chaves {
+    margin-top: 26px;
+    margin-left:49px;
+    border-radius: 50%;
+
+}
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) {
+
+    .barra-lateral {
+        transform: translateX(-100%);
+
+    }
+
+    .barra-lateral {
+
+        background-color: #32363F;
+        color: #FFFFFF;
+    }
+
+
+
+    .barra-lateral {
+
+        background-color: #32363F;
+        color: #FFFFFF;
+    }
+
+    .texto-opcoes{
+        color: white;
+    }
+    .texto-opcoes:hover{
+        color: red;
+    }
+
+
+
+
+
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+    .barra-lateral {
+        transform: translateX(-100%);
+
+    }
+
+    .barra-lateral {
+
+        background-color: #32363F;
+        color: #FFFFFF;
+    }
+
+
+
+    .barra-lateral {
+
+        background-color: #32363F;
+        color: #FFFFFF;
+    }
+
+    .texto-opcoes{
+        color: white;
+    }
+    .texto-opcoes:hover{
+        color: red;
+    }
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .barra-lateral {
+        transform: translateX(-100%);
+
+    }
+
+    .barra-lateral {
+
+        background-color: #32363F;
+        color: #FFFFFF;
+    }
+
+    .texto-opcoes{
+        color: white;
+    }
+    .texto-opcoes:hover{
+        color: red;
+    }
+
+
+}
+
+/* Desktop grande */
+@media (min-width: 1200px) {
+
+}
+

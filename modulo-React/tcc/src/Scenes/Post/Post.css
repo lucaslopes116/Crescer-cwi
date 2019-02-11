@@ -1,0 +1,72 @@
+.card-preview{
+    width: 500px;
+    height: 400px;
+    background-color: yellow;
+    margin-top: 146px;
+    margin-left: 1211px;
+}
+
+.card-verdadeiro{
+    max-width: 100%;
+    margin-left: 530px;
+    /* margin-bottom: -370px; */
+    max-height: 100%;
+    margin-top: -400px;
+
+}
+.barra-lateral--post {
+
+    height: 1240px;
+    width: 355px;
+    position: absolute;
+    background-color: aqua;
+    margin-top: -61px;
+    margin-left: 0px;
+}
+
+.perfil--post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.perfil-foto {
+    border-radius: 50%;
+    margin-top: 31.45px;
+}
+
+.perfil-nome {
+
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 17.95px;
+    font-weight: bold;
+}
+
+.perfil {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrega-mais {
+
+    width: 243px;
+    height: 56px;
+    border-radius: 3px;
+    background-color: #32363F;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 21px;
+    font-family: Roboto, sans-serif;
+    margin-top: 208px;
+    margin-left: 178px;
+}
+
+.carrega-mais:hover{
+
+    background-color: #C4C4C4;
+}

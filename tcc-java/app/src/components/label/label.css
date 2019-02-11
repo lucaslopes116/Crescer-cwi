@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: 'Supernatural Knight';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../../assets//Supernatural_Knight.ttf"); /* IE9 Compat Modes */
+    src: local('Open Sans'), local('OpenSans'), 
+         url("../../assets//Supernatural_Knight.ttf") format('truetype'), /* Safari, Android, iOS */
+  }
+
+.login_label, .registro_label{
+    font-size: 32px;
+    font-family: 'Supernatural Knight', sans-serif;
+    line-height: 21px;
+    margin-bottom: 13px;    
+    text-align: center;
+    
+}
+
+.registro_label{
+    margin-bottom: 35px;
+}

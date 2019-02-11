@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d116d0a3-6be6-4aa2-aac9-10db61262c51" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../tcc-java/api/src/main/java/br/com/cwi/crescer/tcc/controller/AutenticacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tcc-java/api/src/main/java/br/com/cwi/crescer/tcc/controller/AutenticacaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tcc-java/api/src/main/java/br/com/cwi/crescer/tcc/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tcc-java/api/src/main/java/br/com/cwi/crescer/tcc/security/WebSecurityConfig.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="464631620">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="326" />
+          <entry key="jsx" value="2" />
+          <entry key="xml" value="3" />
+          <entry key="yml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="326" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="XML" value="3" />
+          <entry key="YAML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="7" />
+          <entry key="java" value="7767" />
+          <entry key="xml" value="5" />
+          <entry key="yml" value="53" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="7767" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="XML" value="5" />
+          <entry key="YAML" value="53" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1479">
+              <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MeLevaAiApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/MeLevaAiApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Projecao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/dto/Projecao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutenticacaoController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/AutenticacaoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthenticationService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/security/AuthenticationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="36" column="1" lean-forward="true" selection-start-line="13" selection-end-line="36" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/response/LoginResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/request/LoginRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CadastrarPassageiroService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/passageiro/CadastrarPassageiroService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PassageiroRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/repository/PassageiroRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PassageiroController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/PassageiroController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="46" column="96" selection-start-line="46" selection-start-column="96" selection-end-line="46" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>motoristaController</find>
+      <find>idMotorista</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/motorista/DeletarMotoristaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/repository/memory/InMemoryMotoristaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/motorista/ListarTodosMotoristasService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/passageiro/ListarPassageirosService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/veiculo/ListarVeiculoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/repository/PassageiroRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/cwi/crescer/service/veiculoRandom/VeiculoRandomServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/veiculoRandom/VeiculoRandomService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/repository/VeiculoRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/repository/DtoRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/pessoa/Corrida.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/dto/Projecao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/repository/PessoaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/security/AuthenticationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/security/JwtAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/security/CustomUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/security/JwtTokenProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/repository/CorridaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/dto/ProjecaoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/PublicController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/request/LoginRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/response/LoginResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/passageiro/CadastrarPassageiroService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/AutenticacaoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/corrida/ChamarCorridaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/identificador/Perfil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/pessoa/Pessoa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/security/UserPrincipal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/pessoa/Motorista.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/pessoa/Passageiro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/pessoa/Administrador.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/corrida/ListarCorridaDePassageiroPorId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/passageiro/DepositarService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/PassageiroController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/CorridaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/corrida/AvaliacaoPassageiroService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/corrida/AvaliacaoMotoristaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/veiculo/CadastrarVeiculoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/motorista/BuscarMotoristaIdService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/motorista/SacarDinheiroService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/MotoristaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/VeiculoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/repository/MotoristaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/motorista/CadastrarMotoristaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/administrador/CadastrarAdmin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/repository/AdministradorRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/AdministradorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/administrador/CadastrarAdminService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/security/WebSecurityConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="me-leva-ai" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="39" />
+    <option name="y" value="340" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="me-leva-ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="melevaai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="me-leva-ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="melevaai" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="me-leva-ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="melevaai" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="me-leva-ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="melevaai" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="me-leva-ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="melevaai" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crescer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="me-leva-ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="melevaai" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crescer" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="me-leva-ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="melevaai" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crescer" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="me-leva-ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="melevaai" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crescer" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="me-leva-ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="melevaai" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crescer" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="passageiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542117101463" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tcc-java/api" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.26666668" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.cwi.crescer.service.veiculoRandom" />
+      <recent name="br.com.cwi.crescer.service.veiculo" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.cwi.crescer.service.motorista" />
+      <recent name="br.com.cwi.crescer.service" />
+      <recent name="br.com.cwi.crescer.repository" />
+      <recent name="br.com.cwi.crescer.domain" />
+      <recent name="br.com.cwi.crescer.domain.pessoa" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.cwi.crescer.service.corrida" />
+      <recent name="br.com.cwi.crescer.service.passageiro" />
+      <recent name="br.com.cwi.crescer.service.veiculo" />
+      <recent name="br.com.cwi.crescer.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.cwi.crescer.domain.pessoa" />
+      <recent name="br.com.cwi.crescer.domain.exception" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MeLevaAiApplication">
+    <configuration name="MeLevaAiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.cwi.crescer.MeLevaAiApplication" />
+      <module name="me-leva-ai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.cwi.crescer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CadastrarVeiculoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="me-leva-ai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.cwi.crescer.service.veiculo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.com.cwi.crescer.service.veiculo" />
+      <option name="MAIN_CLASS_NAME" value="br.com.cwi.crescer.service.veiculo.CadastrarVeiculoServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CadastrarVeiculoServiceTest.cadastrarNovoVeiculoValido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="me-leva-ai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.cwi.crescer.service.veiculo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.com.cwi.crescer.service.veiculo" />
+      <option name="MAIN_CLASS_NAME" value="br.com.cwi.crescer.service.veiculo.CadastrarVeiculoServiceTest" />
+      <option name="METHOD_NAME" value="cadastrarNovoVeiculoValido" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="VeiculoRandomServiceTest.deveSortearVeiculo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="me-leva-ai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.cwi.crescer.service.veiculoRandom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.com.cwi.crescer.service.veiculoRandom" />
+      <option name="MAIN_CLASS_NAME" value="br.com.cwi.crescer.service.veiculoRandom.VeiculoRandomServiceTest" />
+      <option name="METHOD_NAME" value="deveSortearVeiculo" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="VeiculoRandomServiceTest.sortearVeiculoSemVeiculoNaListaDeveRetornarException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="me-leva-ai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.cwi.crescer.service.veiculoRandom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.com.cwi.crescer.service.veiculoRandom" />
+      <option name="MAIN_CLASS_NAME" value="br.com.cwi.crescer.service.veiculoRandom.VeiculoRandomServiceTest" />
+      <option name="METHOD_NAME" value="sortearVeiculoSemVeiculoNaListaDeveRetornarException" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <list>
+      <item itemvalue="Application.MeLevaAiApplication" />
+      <item itemvalue="JUnit.CadastrarVeiculoServiceTest.cadastrarNovoVeiculoValido" />
+      <item itemvalue="JUnit.CadastrarVeiculoServiceTest" />
+      <item itemvalue="JUnit.VeiculoRandomServiceTest.deveSortearVeiculo" />
+      <item itemvalue="JUnit.VeiculoRandomServiceTest.sortearVeiculoSemVeiculoNaListaDeveRetornarException" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MeLevaAiApplication" />
+        <item itemvalue="JUnit.VeiculoRandomServiceTest.sortearVeiculoSemVeiculoNaListaDeveRetornarException" />
+        <item itemvalue="JUnit.VeiculoRandomServiceTest.deveSortearVeiculo" />
+        <item itemvalue="JUnit.CadastrarVeiculoServiceTest" />
+        <item itemvalue="JUnit.CadastrarVeiculoServiceTest.cadastrarNovoVeiculoValido" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS,ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d116d0a3-6be6-4aa2-aac9-10db61262c51" name="Default Changelist" comment="" />
+      <created>1540951012762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540951012762</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="VeiculoRandomServiceTest_deveSortearVeiculo - 2018.11.09 at 18h 19m 48s.xml">
+      <configuration name="VeiculoRandomServiceTest.deveSortearVeiculo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VeiculoRandomServiceTest_sortearVeiculoSemVeiculoNaListaDeveRetornarException - 2018.11.09 at 18h 20m 38s.xml">
+      <configuration name="VeiculoRandomServiceTest.sortearVeiculoSemVeiculoNaListaDeveRetornarException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VeiculoRandomServiceTest_deveSortearVeiculo - 2018.11.09 at 18h 31m 05s.xml">
+      <configuration name="VeiculoRandomServiceTest.deveSortearVeiculo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VeiculoRandomServiceTest_sortearVeiculoSemVeiculoNaListaDeveRetornarException - 2018.11.09 at 18h 31m 31s.xml">
+      <configuration name="VeiculoRandomServiceTest.sortearVeiculoSemVeiculoNaListaDeveRetornarException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VeiculoRandomServiceTest_sortearVeiculoSemVeiculoNaListaDeveRetornarException - 2018.11.09 at 18h 32m 08s.xml">
+      <configuration name="VeiculoRandomServiceTest.sortearVeiculoSemVeiculoNaListaDeveRetornarException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VeiculoRandomServiceTest_sortearVeiculoSemVeiculoNaListaDeveRetornarException - 2018.11.09 at 18h 34m 07s.xml">
+      <configuration name="VeiculoRandomServiceTest.sortearVeiculoSemVeiculoNaListaDeveRetornarException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VeiculoRandomServiceTest_sortearVeiculoSemVeiculoNaListaDeveRetornarException - 2018.11.09 at 18h 35m 21s.xml">
+      <configuration name="VeiculoRandomServiceTest.sortearVeiculoSemVeiculoNaListaDeveRetornarException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VeiculoRandomServiceTest_sortearVeiculoSemVeiculoNaListaDeveRetornarException - 2018.11.09 at 18h 36m 26s.xml">
+      <configuration name="VeiculoRandomServiceTest.sortearVeiculoSemVeiculoNaListaDeveRetornarException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VeiculoRandomServiceTest_deveSortearVeiculo - 2018.11.09 at 18h 40m 25s.xml">
+      <configuration name="VeiculoRandomServiceTest.deveSortearVeiculo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VeiculoRandomServiceTest_sortearVeiculoSemVeiculoNaListaDeveRetornarException - 2018.11.09 at 18h 41m 09s.xml">
+      <configuration name="VeiculoRandomServiceTest.sortearVeiculoSemVeiculoNaListaDeveRetornarException" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3267974" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2937365" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32843137" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7824074" visible="true" weight="0.31240544" />
+      <window_info id="Structure" order="1" sideWeight="0.2175926" side_tool="true" weight="0.21255673" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45572355" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32289416" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29575163" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4942029" visible="true" weight="0.33509833" />
+      <window_info id="Structure" order="1" sideWeight="0.5057971" side_tool="true" weight="0.14749734" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3267974" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45588234" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32352942" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="novoVeiculo" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>passageiroRepository.findAll().stream().filter(passageiro -&gt; passageiro.getId().equals(id)).findFirst();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>passageiroOptional</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>novoVeiculoRequest.getId()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/CalculaIdade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/veiculo/Veiculo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/pessoa/Corrida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20-sources.jar!/io/swagger/annotations/ApiResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/veiculoRandom/VeiculoRandomService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/repository/PessoaRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/security/JwtAuthenticationFilter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/security/CustomUserDetailsService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/dto/ProjecaoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.9.RELEASE/spring-security-core-5.0.9.RELEASE-sources.jar!/org/springframework/security/core/authority/SimpleGrantedAuthority.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/security/JwtTokenProvider.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/PublicController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/corrida/IniciarCorridaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/security/UserPrincipal.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/corrida/ChamarCorridaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/pessoa/Passageiro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/repository/CorridaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/pessoa/Motorista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/corrida/ListarCorridaDePassageiroPorId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="118" selection-start-line="31" selection-start-column="118" selection-end-line="31" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/passageiro/DepositarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.11.RELEASE/spring-data-commons-2.0.11.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/cwi/crescer/service/veiculo/CadastrarVeiculoServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="66" column="79" selection-start-line="66" selection-start-column="79" selection-end-line="66" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/veiculo/CadastrarVeiculoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/VeiculoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret line="43" column="91" selection-start-line="43" selection-start-column="91" selection-end-line="43" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/corrida/AvaliacaoMotoristaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/corrida/AvaliacaoPassageiroService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/motorista/SacarDinheiroService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/motorista/BuscarMotoristaIdService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/repository/MotoristaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" selection-start-line="14" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/CorridaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/pessoa/Administrador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/pessoa/Pessoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/repository/AdministradorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/AdministradorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/motorista/CadastrarMotoristaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/identificador/Perfil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/MotoristaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="45" column="62" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/administrador/CadastrarAdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/security/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="47" selection-start-line="4" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/MeLevaAiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/domain/dto/Projecao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/security/AuthenticationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="13" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/response/LoginResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/request/LoginRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/PassageiroController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="46" column="96" selection-start-line="46" selection-start-column="96" selection-end-line="46" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/service/passageiro/CadastrarPassageiroService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/repository/PassageiroRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/cwi/crescer/controller/AutenticacaoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26666668" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26666668" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>me-leva-ai</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26666668" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26666668" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="install:install-file -Dfile=c:\driver\ojdbc6-11.2.0.4.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.4 -Dpackaging=jar" />
+  </component>
+</project>

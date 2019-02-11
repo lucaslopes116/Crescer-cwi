@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Supernatural Knight';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../../assets//Supernatural_Knight.ttf"); /* IE9 Compat Modes */
+    src: local('Open Sans'), local('OpenSans'), 
+         url("../../assets//Supernatural_Knight.ttf") format('truetype'), /* Safari, Android, iOS */
+  }
+
+.navBar_titulo span{
+    font-family: 'Supernatural Knight';
+    color: white;
+}
+
+.navBar{
+    background-color: black;
+    color: white;
+}
+
+.navBar_link span{
+    color: white;
+    font-family: 'Supernatural Knight';
+}
+

@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Supernatural Knight';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../../assets//Supernatural_Knight.ttf"); /* IE9 Compat Modes */
+    src: local('Open Sans'), local('OpenSans'), 
+         url("../../assets//Supernatural_Knight.ttf") format('truetype'), /* Safari, Android, iOS */
+  }
+.buscarAmigos_form{
+    font-family: 'Supernatural Knight';
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    widows: 400px;
+    height: 200px;
+    color: white;
+    background-image: url("../../assets/busca.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;   
+}
+
+.buscarAmigos_body{
+    font-family: 'Supernatural Knight';
+    color: white;
+    background-image: url("../../assets/busca.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;   
+}
+
+.buscarAmigos_form_resultado{
+    font-family: 'Supernatural Knight';
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+th, td{
+    color: white;
+    font-family: 'Supernatural Knight';
+}
+
+tr img{
+    width: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.buscarAmigos_tableButton{
+    font-family: 'Supernatural Knight';
+    border-radius: 3px;
+    background-color: #32363F;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.buscarAmigos_tableButton:hover{
+    background-color: #4183ff;
+    cursor: pointer;
+}
+

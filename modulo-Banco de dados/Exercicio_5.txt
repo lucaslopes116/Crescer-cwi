@@ -1,0 +1,119 @@
+Exercicio 1
+
+SELECT
+     municipio   AS municipio,
+     AVG(valor_realizado) as Media_Valor_Realizado
+ FROM
+     licitacao
+ WHERE
+     situacao = 'Normal'
+ GROUP BY
+     municipio
+ ORDER BY
+     municipio
+
+Exercicio 2
+
+SELECT
+     empresa_licitante,
+     valor_realizado,
+     esfera,
+     trunc(CASE esfera
+         WHEN 'Municipal'   THEN valor_realizado - imposto_municipal
+         WHEN 'Federal'     THEN valor_realizado - imposto_federal
+         WHEN 'Estadual'    THEN valor_realizado - imposto_estadual
+     END,1) AS Valor_real
+ FROM
+     licitacao
+
+Exercicio 3
+
+SELECT
+     *
+ FROM
+     (
+         SELECT
+             municipio,
+             round(SUM(imposto_municipal),2) AS soma
+         FROM
+             licitacao
+         GROUP BY
+             municipio
+         ORDER BY
+             soma DESC
+     )
+where rownum <=10
+
+Exercicio 4
+
+SELECT
+     projeto,
+     trunc(months_between(data_fim_prev , data_inicio_prev),0) as tempo_previsto,
+     trunc(months_between(data_fim_real , data_inicio_real),0) as tempo_realizado
+ FROM
+     licitacao
+ WHERE
+     data_inicio_prev < data_inicio_real
+ ORDER BY
+     projeto
+
+
+Exercicio 5
+
+SELECT
+     *
+ FROM
+     (
+         SELECT
+             empresa_licitante,
+             round(SUM(valor_realizado),2) AS Valor_realizado,
+             round(sum(valor_realizado)/sum(profissionais),2) as Valor_medio_por_profissionais,
+             sum(profissionais) as Quantidade_Profissionais,             
+             count(projeto) as Quantidade_projeto
+         FROM
+             licitacao
+         GROUP BY
+             empresa_licitante
+         ORDER BY
+             Valor_realizado DESC
+     )
+ WHERE
+     ROWNUM <= 10
+
+
+Exercicio 6
+
+
+SELECT
+     projeto,
+     TO_CHAR(data_inicio_real,'DD/MM/YYYY') AS data_inicio_real,
+     CASE TO_CHAR(data_inicio_real,'D')
+         WHEN '1'   THEN 'Domingo'
+         WHEN '7'   THEN 'Sabado'
+     END AS dia_da_semana
+ FROM
+     licitacao
+ WHERE
+     TO_CHAR(data_inicio_real,'D') IN (
+         7,
+         1
+     )
+ ORDER BY
+     data_inicio_real
+
+
+Exercicio 7
+
+
+SELECT
+     empresa_licitante as Nome_empresa,
+     round(max(faturamento_1ano_anterior),2) as Faturamento_ano_anterior,
+     round(SUM(valor_previsto),2) AS total_previsto
+ FROM
+     licitacao
+ WHERE
+     ( valor_previsto > ( faturamento_1ano_anterior / 2 ) )
+ GROUP BY
+     empresa_licitante
+ ORDER BY
+     empresa_licitante

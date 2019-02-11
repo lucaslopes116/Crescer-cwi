@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+img {
+    display: flex;
+    max-width: 100%;
+}
+
+.login{    
+    padding-top: 13%;
+    background-image:  url("../../assets/fundo_img.jpeg"); 
+    background-size: cover; 
+    height: 100%;  
+    
+}

@@ -1,0 +1,18 @@
+
+.desloga {
+    width: 480px;
+    height: 56px;
+    border-radius: 3px;
+    background-color: #32363F;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: Roboto, sans-serif;
+    margin-top: 3px;
+
+}
+
+.desloga:hover{
+
+    background-color: #4183ff;
+}

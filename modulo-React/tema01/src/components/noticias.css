@@ -1,0 +1,51 @@
+.noticia{
+    max-width: 80%;
+}
+.noticia--item{
+display: flex;
+height: 250px;
+position: relative;
+justify-content: flex-start;
+margin: 5px;
+padding: 5px;
+border-bottom: 1px solid #ccc;
+}
+
+
+.noticia--imagem{
+margin: 0 16px 0 0;
+}
+.noticia--imagem__img {
+max-height: 250px;
+}
+.noticia--content{
+  height: 250px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.noticia--content__categoria{
+   color: #333;
+   font-family: opensans,opensans-bastian,Arial,sans-serif;
+   font-weight: bold;
+
+}
+.noticia--content__titulo{
+color: #3b9c00;
+font-weight: bold;
+font-size: 17px;
+}
+.noticia--content__descricao{
+  font-weight: 400;
+  color: #666;
+  font-size: 15px;
+}
+
+.noticia--content__horario{
+  color: #999;
+  text-transform: uppercase;
+  bottom: 0;
+  font-size: 10px;
+}	

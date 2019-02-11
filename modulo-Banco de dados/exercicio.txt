@@ -1,0 +1,42 @@
+Exercicio 1
+
+SELECT
+    idempregado     AS id,
+    nomeempregado   AS nome,
+    floor(months_between(SYSDATE,dataadmissao) / 12) AS anosdeempresa
+FROM
+    empregado
+WHERE
+    EXTRACT(YEAR FROM dataadmissao) = 1981;
+
+
+Exercicio 2
+SELECT
+	cargo,
+	 total from
+(select
+    cargo,
+    count(1) as total
+    from empregado
+    group by cargo
+    order by total desc
+)
+where rownum = 1
+
+
+Exercicio 3
+
+select
+    uf,
+    count(1) as total
+    from cidade
+    group by uf
+    order by total desc
+
+Exercicio 4
+
+UPDATE 
+	empregado
+	SET iddepartamento = (select iddepartamento from departamento where nomedepartamento = 'Atendente')
+WHERE
+ 	extract(month from dataadmissao) = 12 and lower(cargo) != 'atendente'

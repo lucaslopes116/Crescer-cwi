@@ -1,0 +1,487 @@
+
+#menu-check{
+    display: none;
+}
+
+.flex-evento {
+
+    display: flex;
+    align-items: center;
+}
+
+
+.menu-escondido input {
+
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+    -webkit-touch-callout: none;
+}
+
+
+.titulo-cadastro {
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: left;
+    color: #000000;
+    padding-top: 60px;
+
+}
+
+.titulo-tag {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+    color: #000000;
+    margin-top: 40px;
+}
+
+.style-radio {
+
+    border: 1px solid #32363F;
+}
+
+.formulario {
+    margin-left: 385px;
+
+}
+
+.opcao-formulario {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: #5C5C5C;
+}
+
+.texto-evento {
+
+    border: 1px solid #C4C4C4;
+    width: 500px;
+    height: 56px;
+}
+
+.data-evento {
+
+    height: 56px;
+    width: 165px;
+    border: 1px solid #C4C4C4;
+    text-align: center;
+    padding-left: 39px;
+}
+
+.frase-date {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #5C5C5C;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.formulario-escolha {
+
+    width: 500px;
+    height: 56px;
+    border: 1px solid #C4C4C4;
+    color: #5C5C5C;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.opcional {
+
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #929292;
+}
+
+.check-nome {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: #5C5C5C;
+    font-style: normal;
+    margin-left: -124px;
+}
+
+.check-caixa {
+
+    width: 303px;
+    height: 100px;
+    border: 1px solid #C4C4C4;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check-caixa:hover {
+
+    border: 2px solid #32363F;
+
+}
+
+.imagem-check {
+
+    border-radius: 50%;
+    padding-right: 10px;
+}
+
+.check-chaves {
+
+    margin-left: 25px;
+}
+
+.check-florinda {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: #5C5C5C;
+    font-style: normal;
+    margin-left: -75px;
+}
+
+.check-chiquinha {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: #5C5C5C;
+    font-style: normal;
+    margin-left: -102px;
+
+}
+
+.conjunto {
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 197px;
+}
+
+.envia-botao {
+
+    width: 270px;
+    height: 56px;
+    border-radius: 3px;
+    background-color: #32363F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cancela-botao {
+    width: 270px;
+    height: 56px;
+    border-radius: 3px;
+    background-color: #32363F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.envia-botao:hover {
+    background-color: #C4C4C4;
+
+}
+
+.cancela-botao:hover {
+    background-color: #C4C4C4;
+
+}
+
+.botao-formulario {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 70px;
+    margin-right: 197px;
+}
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) {
+
+    .formulario {
+        margin-left: 20px;
+    }
+
+    .texto-evento {
+
+        border: 1px solid #C4C4C4;
+        width: 320px;
+        height: 56px;
+    }
+
+    .flex-evento {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .data-evento {
+
+        height: 56px;
+        width: 135px;
+        border: 1px solid #C4C4C4;
+        text-align: center;
+        padding-left: 39px;
+        margin-top: -14px;
+    }
+
+    .select-flex {
+
+        display: flex;
+    }
+
+    .formulario-escolha {
+
+        width: 318px;
+    }
+
+    .conjunto {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 443px;
+        align-items: end;
+
+    }
+
+    .check-caixa {
+
+        width: 374px;
+        margin-bottom: -22px;
+    }
+
+    .botao-flex {
+        margin-left: 259px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .botao-formulario {
+        display: flex;
+        flex-direction: row;
+        margin-top: 70px;
+        margin-right: 144px;
+    }
+
+    .cancela-botao {
+        width: 180px;
+
+
+    }
+
+    .envia-botao {
+
+        width: 180px;
+    }
+
+    .ajuste {
+
+        margin-left: 8px;
+    }
+
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+    /* estilos aqui */
+
+    .formulario {
+        margin-left: 20px;
+    }
+
+    .texto-evento {
+
+        border: 1px solid #C4C4C4;
+        width: 320px;
+        height: 56px;
+    }
+
+    .flex-evento {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+
+    }
+
+    .data-evento {
+
+        height: 56px;
+        width: 135px;
+        border: 1px solid #C4C4C4;
+        text-align: center;
+        padding-left: 39px;
+        margin-top: -14px;
+    }
+
+    .select-flex {
+
+        display: flex;
+    }
+
+    .formulario-escolha {
+
+        width: 318px;
+    }
+
+    .conjunto {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 443px;
+        align-items: end;
+
+    }
+
+    .check-caixa {
+
+        width: 374px;
+        margin-bottom: -22px;
+    }
+
+    .botao-flex {
+        margin-left: 259px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .botao-formulario {
+        display: flex;
+        flex-direction: row;
+        margin-top: 70px;
+        margin-right: 144px;
+    }
+
+    .cancela-botao {
+        width: 180px;
+
+
+    }
+
+    .envia-botao {
+
+        width: 180px;
+    }
+
+    .ajuste {
+
+        margin-left: 8px;
+    }
+
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+    .conjunto {
+        /* display: flex; */
+        justify-content: space-between;
+        margin-right: 0px;
+    }
+
+    .formulario {
+        margin-left: 85px;
+    }
+
+    .check-nome {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        text-align: left;
+        color: #5C5C5C;
+        font-style: normal;
+        margin-left: -59px;
+    }
+
+    .check-chiquinha {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        text-align: left;
+        color: #5C5C5C;
+        font-style: normal;
+        margin-left: -33px;
+    }
+
+    .check-florinda {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        text-align: left;
+        color: #5C5C5C;
+        font-style: normal;
+        margin-left: -13px;
+    }
+
+}
+
+/* Desktop grande */
+@media (min-width: 1440px) {
+
+    .conjunto-mobile {
+
+        display: flex;
+
+        justify-content: space-between;
+    }
+
+    .botao-formulario{
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .botao-flex{
+
+        display: flex;
+        margin-left: 372px;
+    }
+
+}
+@media (min-width: 1000px) and (max-width: 1439px) {
+
+    .conjunto-mobile {
+
+        display: flex;
+
+        justify-content: space-between;
+    }
+
+    .botao-formulario{
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .botao-flex{
+
+        display: flex;
+        margin-left: 372px;
+    }
+
+}
+

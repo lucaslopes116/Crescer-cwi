@@ -1,0 +1,17 @@
+.carrega--perfil{
+    width: 243px;
+    height: 56px;
+    border-radius: 3px;
+    background-color: #32363F;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 21px;
+    font-family: Roboto, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.carrega--perfil:hover{
+
+    background-color: #4183ff;
+}

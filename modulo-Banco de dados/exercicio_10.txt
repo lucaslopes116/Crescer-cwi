@@ -1,0 +1,69 @@
+create or replace package body pck_cidade as
+
+    PROCEDURE ajusta_cidade_cliente (
+        pnome            IN VARCHAR2,
+        puf              IN VARCHAR2,
+        pmenoridcidade   IN INTEGER
+    ) AS
+
+        CURSOR c_listacli IS SELECT
+                 cliente.idcliente
+             FROM
+                 cliente
+                 INNER JOIN cidade ON cliente.idcidade = cidade.idcidade
+             WHERE
+                 cidade.nome = pnome
+                 AND cidade.uf = puf
+                 AND cidade.idcidade <> pmenoridcidade;
+
+    BEGIN
+        FOR reg IN c_listacli LOOP
+
+            UPDATE cliente
+            SET
+                idcidade = pmenoridcidade
+            WHERE
+                idcliente = reg.idcliente and
+                idcidade <> pmenoridcidade;
+
+        END LOOP;
+    END ajusta_cidade_cliente;
+
+procedure exclui_cidades_duplicadas(pNome in varchar2, 
+                                      pUF in varchar2, 
+                                      pMenorIDCidade in integer) as
+
+      BEGIN        
+            Delete from cidade            
+            WHERE
+                nome = pnome
+                AND uf = puf
+                AND idcidade <> pmenoridcidade;
+
+
+  end exclui_cidades_duplicadas;
+
+procedure elimina_duplicadas as 
+
+ CURSOR c_lista_cidadeidmin IS SELECT
+                                     nome,
+                                     min(idcidade) AS id_cidade,
+                                     uf as estado
+                                 FROM
+                                     cidade
+                                 GROUP BY
+                                     nome,
+                                     uf
+                                 HAVING
+                                     COUNT(idcidade) > 1;    
+  begin
+      for reg in c_lista_cidadeidmin loop
+       ajusta_cidade_cliente(pNome=> reg.nome, pUF=> reg.estado, pMenorIDCidade=> reg.id_cidade);
+      end loop;
+
+      for reg in c_lista_cidadeidmin loop
+        exclui_cidades_duplicadas(pNome=> reg.nome, pUF=> reg.estado, pMenorIDCidade=> reg.id_cidade);  
+      end loop;
+
+  end elimina_duplicadas;
+end;

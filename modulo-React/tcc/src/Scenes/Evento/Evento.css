@@ -1,0 +1,48 @@
+.eventos{
+    margin-top: 75px;
+}
+
+.eventos--header{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.eventos--meus{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    margin-left: 10px;
+    margin-bottom: 51px;
+}
+
+.eventos--opcoes{
+    margin-right: 141px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.eventos--textos{
+    font-size: 20px;
+}
+
+.eventos--foto {
+    border-radius: 50%;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 25px;
+
+}
+
+.eventos--eventos{
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+}
+hr{
+
+    color: black;
+    width: 100%;
+    margin-top: 50px;
+}

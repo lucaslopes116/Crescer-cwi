@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Supernatural Knight';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../../assets//Supernatural_Knight.ttf"); /* IE9 Compat Modes */
+    src: local('Open Sans'), local('OpenSans'), 
+         url("../../assets//Supernatural_Knight.ttf") format('truetype'), /* Safari, Android, iOS */
+  }
+
+
+.login_button{
+     width: 100%;
+     height: 56px;
+     border-radius: 3px;
+     background-color: #32363F;
+     color: #FFFFFF;
+     font-size: 18px;
+     line-height: 21px;
+     font-family: 'Supernatural Knight', 'sans-serif';
+     margin-top: 180px;
+}
+
+.login_button:hover{
+    background-color: #4183ff;
+    cursor: pointer;
+    
+}
+
+.login_button--registrar:hover{
+    background-color: #4183ff;
+    cursor: pointer;
+    
+}
+
+.login_button--registrar{
+     width: 458px;
+     height: 40px;
+     border-radius: 3px;
+     background-color: #32363F;
+     color: #FFFFFF;
+     font-size: 18px;
+     line-height: 21px;
+     font-family: 'Supernatural Knight', 'sans-serif';     
+     margin-left: 446px;
+     margin-bottom: 50px;
+}
+
+.registro_button, .registro_button--voltar{
+    width: 100%;
+    height: 56px;
+    border-radius: 3px;
+    background-color: #32363F;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Supernatural Knight', 'sans-serif';
+}
+
+.registro_button--voltar{
+    width: 461px;
+    margin-left: 445px;
+    height: 44px;
+    margin-bottom: 50px;
+}
+
+.registro_button:hover{
+    background-color: #4183ff;
+    cursor: pointer;
+    
+}
+
+.registro_button--voltar:hover{
+    background-color: #4183ff;
+    cursor: pointer;
+    
+}
+
+.dashboard_button, .dashboard_button--novoPost{
+    border-radius: 3px;
+    background-color: #32363F;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Supernatural Knight', 'sans-serif';
+    width: 100%;
+    height: 100%;
+}
+
+.dashboard_button--voltar{
+    border-radius: 3px;
+    background-color: #32363F;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Supernatural Knight', 'sans-serif';
+    width: 25%;
+    height: 10%;
+}
+
+.dashboard_button--criaPost{
+    border-radius: 3px;
+    background-color: #32363F;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Supernatural Knight', 'sans-serif';
+    width: 50%;
+    margin-left: 25%;
+    height: 45px;
+    
+}
+
+.dashboard_button:hover, .dashboard_button--novoPost:hover, .aside_button:hover,
+ .naavBar_deslogar:hover, .dashboard_button--voltar:hover, .dashboard_button--criaPost:hover{
+    background-color: #4183ff;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.dashboard_button--novoPost{    
+    width: 150px;
+    height: 100px;
+   
+}
+
+.aside_button{
+    margin-top: 30px;
+    width: 50%;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #32363F;
+    color: #FFFFFF;
+    font-family: 'Supernatural Knight', 'sans-serif';
+}
+
+.naavBar_deslogar{
+    width: 100%;
+    font-family: 'Supernatural Knight', 'sans-serif';
+    border-radius: 3px;
+    background-color: #32363F;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1920px) {
+    .registro_button--voltar{
+        width: 24%;
+        margin-left: 38%;        
+        
+    }
+
+    .login_button--registrar{
+        width: 24%;
+        margin-left: 38%;
+    }
+
+}

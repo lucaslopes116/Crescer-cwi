@@ -1,0 +1,50 @@
+.grupos{
+    margin-top: 75px;
+
+}
+
+.grupos--header{
+
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grupos--meus{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin-left: -167px;
+    display: flex;
+}
+
+.grupos--opcoes{
+    margin-right: -37px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.grupos--textos{
+    font-size: 20px;
+}
+
+.grupos--foto {
+    border-radius: 50%;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 25px;
+
+}
+
+.grupos--eventos{
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+}
+hr{
+
+    color: black;
+    width: 100%;
+    margin-top: 50px;
+}

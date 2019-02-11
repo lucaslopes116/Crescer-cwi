@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Supernatural Knight';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../../assets/Supernatural_Knight.ttf"); /* IE9 Compat Modes */
+    src: local('Open Sans'), local('OpenSans'), 
+         url("../../assets/Supernatural_Knight.ttf") format('truetype'), /* Safari, Android, iOS */
+  }
+.aside{
+    position: relative;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(19, 21, 26);
+    color: white;    
+}
+
+.aside_perfil{
+    margin-top: 50px;
+}
+
+.aside_perfil img{
+   margin-left: 100px;   
+    border-radius: 50%;
+    width: 60%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.aside_perfil_nome{
+    margin-top: 50px;
+    font-family: 'Supernatural Knight';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+

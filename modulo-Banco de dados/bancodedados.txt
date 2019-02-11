@@ -1,0 +1,6 @@
+Senha system: oracle
+
+senha sys: "sqlcwi@123"
+
+Usuario: CRESCER18_2
+Senha : CRESCER18_2

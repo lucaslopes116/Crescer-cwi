@@ -1,0 +1,31 @@
+DECLARE 
+CURSOR LISTA_ANO IS SELECT DISTINCT(to_number(EXTRACT(YEAR FROM datapedido))) AS anos from pedido order by anos;
+
+CURSOR LISTA_MESES IS SELECT DISTINCT(to_number(EXTRACT(MONTH FROM datapedido))) AS meses from pedido order by meses;
+
+CURSOR LISTA_PEDIDOS(anos in number, meses in number) IS
+SELECT MES_ANO, VALORPEDIDO, ROWNUM AS RANKING FROM (
+    SELECT (EXTRACT(MONTH FROM DATAPEDIDO) 
+    || '-' || 
+    EXTRACT(YEAR FROM DATAPEDIDO)) AS MES_ANO, 
+    VALORPEDIDO,
+    ROWNUM AS RANKING
+    FROM PEDIDO
+    WHERE to_number(EXTRACT(MONTH FROM datapedido)) =  meses
+    AND to_number(EXTRACT(YEAR FROM datapedido)) = anos
+    GROUP BY (EXTRACT(MONTH FROM DATAPEDIDO) 
+    || '-' || 
+    EXTRACT(YEAR FROM DATAPEDIDO)), VALORPEDIDO, ROWNUM
+    ORDER BY VALORPEDIDO DESC )
+    WHERE ROWNUM <= 3;
+
+
+    BEGIN 
+        FOR reg in lista_ano LOOP
+            FOR reg2 in lista_meses LOOP
+                FOR reg3 in lista_pedidos(reg.anos, reg2.meses) LOOP
+                    DBMS_OUTPUT.PUT_LINE(reg3.mes_ano || ' | ' ||  reg3.valorpedido || ' | ' || reg3.ranking);
+                END LOOP;
+            END LOOP;
+        END LOOP;
+    END;

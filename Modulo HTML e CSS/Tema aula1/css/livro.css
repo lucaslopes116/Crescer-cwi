@@ -1,0 +1,79 @@
+#diferentao{
+    font-size: 48px;    
+    font-weight: bold;
+    float: left;
+}
+
+#ajeitaParagrafo{
+
+    float: left;
+    top: -18px;
+}
+
+p{    
+    text-indent: 30px;    
+    margin-left: 50px;
+    font-family: 'Crimson Text', serif;
+}
+
+.semNada{
+
+    text-indent: 0px; 
+}
+
+
+u{
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+
+}
+
+.direita {
+    margin-right: 30px;
+    
+}
+
+code{
+    display: inline;
+    background-color: #333333;
+    color: white;
+    border-radius: 10%;
+}
+
+#amarelo{
+    background-color: #e2ff21;
+}
+
+#rosa{
+    background-color: #ff62c8;
+}
+
+#verde {
+
+    background-color: #5ee83e;
+}
+
+#azul{
+
+    background-color: #76c5ff;
+}
+
+#laranja {
+
+    background-color: #ffa53c;
+}
+
+del{
+
+    color: gray;
+}
+
+.marcacao {
+
+    list-style: circle;
+}
+
+ul {
+
+    margin-left: 30px;
+}

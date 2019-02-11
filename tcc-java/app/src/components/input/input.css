@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.login_input, .registro_input  {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 21px;
+    margin-bottom: 25px;
+    background-color: #FFFFFF;
+}

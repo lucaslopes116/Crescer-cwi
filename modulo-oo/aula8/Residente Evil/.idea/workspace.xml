@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea4bf897-baba-470e-b39b-e35ec9f13022" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2085504502">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2841" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2841" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/br/com/cwi/crescer/municao/MunicaoCalibre12.java" />
+        <option value="$PROJECT_DIR$/src/br/com/cwi/crescer/municao/MunicaoBazuca.java" />
+        <option value="$PROJECT_DIR$/src/br/com/cwi/crescer/armas/Municao.java" />
+        <option value="$PROJECT_DIR$/src/br/com/cwi/crescer/armas/Item.java" />
+        <option value="$PROJECT_DIR$/br.com.cwi.crescer.test/test/br/com/cwi/crescer/test/test/ArmaTest.java" />
+        <option value="$PROJECT_DIR$/src/br/com/cwi/crescer/armas/Bazuca.java" />
+        <option value="$PROJECT_DIR$/src/br/com/cwi/crescer/Item.java" />
+        <option value="$PROJECT_DIR$/br.com.cwi.crescer.test/test/br/com/cwi/crescer/InventarioTest.java" />
+        <option value="$PROJECT_DIR$/br.com.cwi.crescer.test/test/ArmaTest.java" />
+        <option value="$PROJECT_DIR$/src/br/com/cwi/crescer/armas/Arma.java" />
+        <option value="$PROJECT_DIR$/src/br/com/cwi/crescer/armas/Calibre12.java" />
+        <option value="$PROJECT_DIR$/src/br/com/cwi/crescer/armas/TresOitao.java" />
+        <option value="$PROJECT_DIR$/src/br/com/cwi/crescer/Inventario.java" />
+        <option value="$PROJECT_DIR$/src/br/com/cwi/crescer/municao/MunicaoTresOitao.java" />
+        <option value="$PROJECT_DIR$/src/br/com/cwi/crescer/municao/MunicaoCalibreDoze.java" />
+        <option value="$PROJECT_DIR$/src/br/com/cwi/crescer/municao/Municao.java" />
+        <option value="$PROJECT_DIR$/br.com.cwi.crescer.test/test/InventarioTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="157" />
+    <option name="y" value="151" />
+    <option name="width" value="1501" />
+    <option name="height" value="818" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Residente Evil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Residente Evil" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Residente Evil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Residente Evil" type="462c0819:PsiDirectoryNode" />
+              <item name="br.com.cwi.crescer.test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Residente Evil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Residente Evil" type="462c0819:PsiDirectoryNode" />
+              <item name="br.com.cwi.crescer.test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Residente Evil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Residente Evil" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Residente Evil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Residente Evil" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crescer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Residente Evil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Residente Evil" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crescer" type="462c0819:PsiDirectoryNode" />
+              <item name="armas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Residente Evil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Residente Evil" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crescer" type="462c0819:PsiDirectoryNode" />
+              <item name="municao" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="ToolWindowFind.ShowToolbar" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537482590208" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.cwi.crescer" />
+      <recent name="br.com.cwi.crescer.test.test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.cwi.crescer.armas" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.InventarioTest.adicionaItemAteOLimite">
+    <configuration name="ArmaTest.criandoArmaDoze" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Residente Evil" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArmaTest" />
+      <option name="METHOD_NAME" value="criandoArmaDoze" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ArmaTest.criandoArmaPistola" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Residente Evil" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArmaTest" />
+      <option name="METHOD_NAME" value="criandoArmaPistola" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="InventarioTest.adicionaItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Residente Evil" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InventarioTest" />
+      <option name="METHOD_NAME" value="adicionaItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="InventarioTest.adicionaItemAteOLimite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Residente Evil" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InventarioTest" />
+      <option name="METHOD_NAME" value="adicionaItemAteOLimite" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="InventarioTest.removerItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Residente Evil" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InventarioTest" />
+      <option name="METHOD_NAME" value="removerItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ArmaTest.criandoArmaDoze" />
+      <item itemvalue="JUnit.ArmaTest.criandoArmaPistola" />
+      <item itemvalue="JUnit.InventarioTest.adicionaItem" />
+      <item itemvalue="JUnit.InventarioTest.removerItem" />
+      <item itemvalue="JUnit.InventarioTest.adicionaItemAteOLimite" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.InventarioTest.adicionaItemAteOLimite" />
+        <item itemvalue="JUnit.InventarioTest.adicionaItem" />
+        <item itemvalue="JUnit.InventarioTest.removerItem" />
+        <item itemvalue="JUnit.ArmaTest.criandoArmaDoze" />
+        <item itemvalue="JUnit.ArmaTest.criandoArmaPistola" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea4bf897-baba-470e-b39b-e35ec9f13022" name="Default" comment="" />
+      <created>1537378454025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537378454025</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="InventarioTest_removerItem - 2018.09.20 at 19h 06m 35s.xml">
+      <configuration name="InventarioTest.removerItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventarioTest_adicionaItemAteOLimite - 2018.09.20 at 19h 20m 58s.xml">
+      <configuration name="InventarioTest.adicionaItemAteOLimite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventarioTest_adicionaItemAteOLimite - 2018.09.20 at 19h 24m 20s.xml">
+      <configuration name="InventarioTest.adicionaItemAteOLimite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventarioTest_adicionaItem - 2018.09.20 at 19h 24m 24s.xml">
+      <configuration name="InventarioTest.adicionaItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventarioTest_adicionaItemAteOLimite - 2018.09.20 at 19h 24m 39s.xml">
+      <configuration name="InventarioTest.adicionaItemAteOLimite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventarioTest_adicionaItemAteOLimite - 2018.09.20 at 19h 26m 05s.xml">
+      <configuration name="InventarioTest.adicionaItemAteOLimite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventarioTest_adicionaItemAteOLimite - 2018.09.20 at 19h 26m 30s.xml">
+      <configuration name="InventarioTest.adicionaItemAteOLimite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventarioTest_adicionaItemAteOLimite - 2018.09.20 at 19h 28m 35s.xml">
+      <configuration name="InventarioTest.adicionaItemAteOLimite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventarioTest_adicionaItemAteOLimite - 2018.09.20 at 19h 28m 57s.xml">
+      <configuration name="InventarioTest.adicionaItemAteOLimite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InventarioTest_adicionaItemAteOLimite - 2018.09.20 at 19h 29m 48s.xml">
+      <configuration name="InventarioTest.adicionaItemAteOLimite" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24514039" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25869894" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32937366" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24963397" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32913387" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/br/com/cwi/crescer/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/cwi/crescer/armas/Item.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/cwi/crescer/municao/MunicaoBazuca.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/cwi/crescer/municao/MunicaoCalibre12.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/cwi/crescer/armas/Bazuca.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/br.com.cwi.crescer.test/test/ArmaTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/cwi/crescer/Inventario.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/cwi/crescer/Item.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/cwi/crescer/armas/Arma.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/cwi/crescer/municao/MunicaoTresOitao.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/cwi/crescer/municao/MunicaoCalibreDoze.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/cwi/crescer/municao/Municao.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/cwi/crescer/armas/TresOitao.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/cwi/crescer/armas/Calibre12.java" />
+    <entry file="file://$PROJECT_DIR$/br.com.cwi.crescer.test/test/InventarioTest.java" />
+  </component>
+</project>

@@ -1,0 +1,182 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/feed.css">
+    <link rel="stylesheet" type="text/css" href="../css/aside.css">
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+    <link rel="stylesheet" type="text/css" href="../css/cadastro.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,500|Roboto+Condensed:300,700|Roboto:400i,500"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro</title>
+</head>
+<body>
+<header class="menu">
+    <div class="menu-escondido">
+        <label for="menu-check">
+        <img src="../img/menumenu.png" alt="menu-hamburguer" class="menu-hamburguer">
+        </label>
+
+    </div>
+    <ol>
+        <li class="logo">
+            <div>
+            <img src="../img/Grouplogovilla.png" alt="logo da villa" class="logo-frase">
+            </div>
+            <div>
+            <img src="../img/stairslogo-mobile.png" alt="logo da villa" class="logo-imagem">
+            </div>
+        </li>
+        <li class="detalhe-menu-centro">
+            <input type="text" class="procura" placeholder="Pesquisar">
+            <img src="../img/magnifying-glasspesquisar.png" alt="lupa para pesquisar" class="pesquisar">
+        </li>
+        <li class="detalhe-menu-esquerda">
+            <img src="../img/ringsino.png" class="sino" alt="sino">
+        </li>
+    </ol>
+</header>
+<input type="checkbox" id="menu-check">
+<aside class="barra-lateral">
+    <div class="perfil">
+        <img src="../img/image 2quico.png" class="perfil-foto" alt="foto do quico">
+        <span class="perfil-nome">Quico</span>
+        <button class="carrega-mais">Meu Perfil</button>
+    </div>
+    <hr>
+    <div class="meus-grupos">
+        <div class="grupos">
+            <span class="texto-grupo">Meus grupos</span>
+            <img src="../img/Vector3pontinhos.png" class="tres-pontos" alt="imagem 3 pontos">
+        </div>
+        <div class="grupos-opcoes">
+            <div class="grupo-conf">
+                <img src="../img/Rectangle%20.png" class="retangulo" alt="quadrado amarelo">
+                <img src="../img/Vectorproflinguica.png" class="vetor-quadrado" alt="icone professor linguiça">
+                <p class="texto-opcoes">Alunos do professor Linguiça</p>
+            </div>
+
+            <div class="grupo-conf">
+                <img src="../img/Rectangle%20.png" class="retangulo" alt="quadrado amarelo">
+                <img src="../img/Vectorbolaquadrada.png" class="vetor-quadrado" alt="icone bola quadrada">
+                <p class="texto-opcoes">Brique da bola quadrada</p>
+            </div>
+
+            <div class="grupo-conf">
+                <img src="../img/Rectangle%20.png" class="retangulo" alt="quadrado amarelo">
+                <img src="../img/jewelry-storetesouro.png" class="vetor-quadrado" alt="icone tesouro da mamae">
+                <p class="texto-opcoes">Tesouros da mamãe</p>
+            </div>
+
+            <div class="grupo-conf">
+                <img src="../img/Rectangle%20.png" class="retangulo" alt="quadrado amarelo">
+                <img src="../img/witch-hatbruxa.png" class="vetor-quadrado" alt="icone bruxa do 71">
+                <p class="texto-opcoes">Rolê na Bruxa do 71 #eufui</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="meus-grupos">
+        <div class="grupos">
+            <span class="texto-grupo">Eventos</span>
+            <img src="../img/Vector3pontinhos.png" class="tres-pontos" alt="imagem 3 pontos">
+        </div>
+
+        <div class="posts">
+            <img src="../img/image%202chaves.png" class="img-post-pequeno-chaves" alt="foto do chaves">
+            <div class="juncao-info">
+                <p class="info-posts">
+                    <strong>Hoje</strong>
+                </p>
+                <p class="evento-aniversario">Aniversário</p>
+            </div>
+        </div>
+</aside>
+
+<div class="ajuste">
+    <form class="formulario" method="post" action="#">
+        <h1 class="titulo-cadastro">Criar evento</h1>
+
+        <p class="titulo-tag">Tipo de evento</p>
+        <br>
+        <label>
+            <label>
+                <input type="radio" name="tipo-evento" class="style-radio">
+                <span class="opcao-formulario">Público</span>
+            </label>
+        </label>
+        <br>
+        <br>
+
+        <label>
+            <label>
+                <input type="radio" name="tipo-evento" class="style-radio">
+                <span class="opcao-formulario">Privado</span>
+            </label>
+        </label>
+
+        <p class="titulo-tag">Nome do evento</p>
+        <br>
+        <input type="text" name="nome-evento" class="texto-evento">
+
+        <p class="titulo-tag">Quando irá acontecer?</p>
+
+        <br>
+        <br>
+        <div class="flex-evento">
+            <div>
+                <input type="date" name="data-evento" value="date" class="data-evento">
+            </div>
+            <div><span class="frase-date">as</span></div>
+            <div>
+                <input type="time" name="data-evento" value="time" class="data-evento">
+            </div>
+        </div>
+        <p class="titulo-tag">Traje</p>
+
+        <div class="select-flex">
+            <div>
+                <select class="formulario-escolha">
+                    <option value="Pode vir como achar melhor" hidden selected>Pode vir como achar melhor</option>
+                    <option value="Social">Social</option>
+                    <option value="Esporte">Esporte</option>
+                    <option value="Gala">Gala</option>
+                </select>
+            </div>
+        </div>
+
+        <p class="titulo-tag">Convidar <span class="opcional">(opcional)</span></p>
+        <div class="conjunto-mobile">
+            <div class="conjunto">
+                <div class="check-caixa">
+                    <input type="checkbox" value="chaves" class="check-chaves" checked><span
+                        class="check-nome">Chaves</span>
+                    <img src="../img/image%202chaves.png" alt="imagem do chaves" class="imagem-check">
+                </div>
+
+                <div class="check-caixa">
+                    <input type="checkbox" value="chiquinha" class="check-chaves"><span class="check-chiquinha">Chiquinha</span>
+                    <img src="../img/image%202chiquinha.png" alt="imagem da chiquinha" class="imagem-check">
+                </div>
+
+                <div class="check-caixa">
+                    <input type="checkbox" value="chiquinha" class="check-chaves"><span class="check-florinda">Dona Florinda</span>
+                    <img src="../img/image%203florinda.png" alt="imagem da dona florinda" class="imagem-check">
+                </div>
+            </div>
+        </div>
+            <div class="botao-flex">
+                <div>
+                    <div class="botao-formulario">
+                        <button value="Cancelar" type="reset" class="cancela-botao">Cancelar</button>
+                        <button value="Criar evento" type="submit" class="envia-botao">Criar evento</button>
+                    </div>
+                </div>
+            </div>
+    </form>
+</div>
+
+</body>
+</html>

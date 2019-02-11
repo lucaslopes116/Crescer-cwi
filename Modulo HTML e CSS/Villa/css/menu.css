@@ -1,0 +1,426 @@
+.menu-hamburguer {
+    display: none;
+
+}
+
+.menu {
+
+    position: fixed;
+    background-color:#32363F;
+    width: 100%;
+    height: 80px;
+    border-radius: 4px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+    top: 0;
+    left: 0;
+    z-index: 1;  
+}
+
+.menu ol {
+
+    display: flex;
+    list-style-type: none;
+}
+
+
+.logo-frase {
+    flex: 1;
+    margin: 18px 146px 17px 43px;
+}
+
+.logo-imagem{
+    display: none;
+}
+
+.detalhe-menu-centro {
+    flex: 2;
+    margin: 12px 218px 12px;
+    position: relative;
+}
+
+.procura {
+    width: 551px;
+    height: 56px;
+    background-color: #7E7E7E;
+    border-radius: 3px;
+    padding: 23px 386px 16px 70px;
+    border: 1px solid #32363F;
+}
+
+.pesquisar {
+    top: -1px;
+    position: absolute;
+    margin: 14px 501px 12px 20px;
+}
+
+::-webkit-input-placeholder {
+    color: #FFFFFF;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: left;
+}
+
+:-moz-placeholder {
+    color: #FFFFFF;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: left;
+}
+
+::-moz-placeholder {
+    color: #FFFFFF;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: left;
+}
+
+:-ms-input-placeholder {
+    color: #FFFFFF;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: left;
+}
+
+.detalhe-menu-esquerda {
+    flex: 1;
+    margin: 25px 35px 25px
+}
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) {
+
+    #menu-check:checked ~ .barra-lateral {
+
+        transform: translateX(1%);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+
+    .menu-hamburguer {
+
+
+        position: relative;
+        top: 31px;
+        right: -24px;
+        display: block;
+    }
+
+    .menu {
+
+        position: fixed;
+        background-color:#32363F;
+        width: 100%;
+        height: 80px;
+        border-radius: 4px;
+        box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .detalhe-menu-esquerda {
+
+        left: -123px;
+        position: relative;
+        top: -17px;
+    }
+
+    .logo-frase {
+
+
+        margin: 18px 146px 17px 43px;
+        display: none;
+    }
+
+    .logo-imagem {
+        display: block;
+        position: relative;
+        right: -142px;
+        margin-right: 37px;
+
+
+    }
+
+
+    .detalhe-menu-centro {
+        position: relative;
+        right: -45px;
+
+
+    }
+
+    .procura {
+        width: 551px;
+        height: 56px;
+        background-color: #7E7E7E;
+        border-radius: 3px;
+        padding: 23px 386px 16px 70px;
+        border: 1px solid #32363F;
+        display: none;
+    }
+
+    .pesquisar {
+
+        top: -18px;
+        position: absolute;
+    }
+
+
+
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+
+
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+    #menu-check:checked ~ .barra-lateral {
+
+        transform: translateX(100%);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+    .menu-hamburguer {
+
+
+        position: relative;
+        top: 31px;
+        right: -24px;
+        display: block;
+    }
+
+    .menu {
+
+        position: fixed;
+        background-color:#32363F;
+        width: 100%;
+        height: 80px;
+        border-radius: 4px;
+        box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .detalhe-menu-esquerda {
+
+        left: -45px;
+        position: relative;
+        top: -17px;
+    }
+
+    .logo-frase {
+
+
+        margin: 18px 146px 17px 43px;
+        display: none;
+    }
+
+    .logo-imagem {
+        display: block;
+        position: relative;
+        right: -225px;
+        margin-right: 37px;
+
+
+    }
+
+    .detalhe-menu-centro {
+        position: relative;
+        right: -231px;
+
+
+    }
+
+    .procura {
+        width: 551px;
+        height: 56px;
+        background-color: #7E7E7E;
+        border-radius: 3px;
+        padding: 23px 386px 16px 70px;
+        border: 1px solid #32363F;
+        display: none;
+    }
+
+    .pesquisar {
+
+        top: -18px;
+        position: absolute;
+    }
+
+}
+
+/* Desktop grande */
+
+@media (min-width: 1000px) and (max-width: 1439px) {
+    .menu {
+
+        position: fixed;
+        background-color:#32363F;
+        width: 100%;
+        height: 80px;
+        border-radius: 4px;
+        box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .detalhe-menu-esquerda {
+        left: -233px;
+        position: relative;
+    }
+
+    .logo-frase {
+
+
+        margin: 18px 14px -34px 43px;
+        position: relative;
+    }
+
+    .logo-imagem {
+
+        position: relative;
+        top: 10px;
+        right: -91px;
+        margin-right: 37px;
+        display: none;
+
+
+    }
+
+    .detalhe-menu-centro {
+        position: relative;
+        right: 95px;
+
+    }
+
+    .procura {
+        width: 551px;
+        height: 56px;
+        background-color: #7E7E7E;
+        border-radius: 3px;
+        padding: 23px 386px 16px 70px;
+        border: 1px solid #32363F;
+
+    }
+
+
+}
+@media (min-width: 1440px) {
+
+    .menu {
+
+        position: fixed;
+        background-color:#32363F;
+        width: 100%;
+        height: 80px;
+        border-radius: 4px;
+        box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .detalhe-menu-esquerda {
+        left: 180px;
+        position: relative;
+    }
+
+    .logo-frase {
+
+
+        margin: 18px 14px -34px 43px;
+        position: relative;
+    }
+
+    .logo-imagem {
+
+        position: relative;
+        top: 10px;
+        right: -91px;
+        margin-right: 37px;
+        display: none;
+
+
+    }
+
+    .detalhe-menu-centro {
+        position: relative;
+        right: -138px;
+
+    }
+
+    .procura {
+        width: 551px;
+        height: 56px;
+        background-color: #7E7E7E;
+        border-radius: 3px;
+        padding: 23px 386px 16px 70px;
+        border: 1px solid #32363F;
+
+    }
+
+}
+
+@media (min-width: 1920px) {
+    .menu {
+
+        position: fixed;
+        background-color:#32363F;
+        width: 100%;
+        height: 80px;
+        border-radius: 4px;
+        box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .detalhe-menu-esquerda {
+        left: 354px;
+        position: relative;
+    }
+
+
+
+    .logo-imagem {
+
+        position: relative;
+        top: 10px;
+        right: -91px;
+        margin-right: 37px;
+        display: none;
+    }
+
+    .detalhe-menu-centro {
+        position: relative;
+        right: -284px;
+    }
+
+    .procura {
+        width: 551px;
+        height: 56px;
+        background-color: #7E7E7E;
+        border-radius: 3px;
+        padding: 23px 386px 16px 70px;
+        border: 1px solid #32363F;
+
+    }
+
+
+
+}
+
+
+
+
+
